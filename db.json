@@ -1,0 +1,82 @@
+{
+  "tasks": [
+    {
+      "id": "b0867d8f-821e-4f4b-a75f-16699e4729ca",
+      "title": "Side bar UI & toggle implementation",
+      "description": "Implementing a sidebar toggle enables users to seamlessly expand or collapse sidebar menus, optimizing screen space and enhancing navigation flexibility in user",
+      "dueDate": "2024-04-28",
+      "assignee": "1",
+      "status": "Todo",
+      "priority": "Low",
+      "createdAt": "Sun Apr 28 2024 17:40:20 GMT+0530 (India Standard Time)",
+      "boardId": "5bcb0670-d6c9-4911-a2c4-0851dab129456"
+    },
+    {
+      "id": "741abf5b-a704-4d41-90f7-ee2ba680b88f",
+      "title": "Header implementation",
+      "description": "Create intuitive header structures to enhance user experience and reinforce visual hierarchy.",
+      "dueDate": "2024-04-29",
+      "assignee": "1",
+      "status": "InProgress",
+      "priority": "Medium",
+      "createdAt": "Sun Apr 28 2024 17:42:28 GMT+0530 (India Standard Time)",
+      "boardId": "5bcb0670-d6c9-4911-a2c4-0851dab1295c"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "firstName": "Pandiselvam",
+      "lastName": "G",
+      "email": "pandiselvamdev@gmail.com",
+      "password": "12345678",
+      "color": "blue"
+    },
+    {
+      "id": "b3abbeb4-f487-42dc-8e8e-5bb65036dd75",
+      "firstName": "Nancy",
+      "lastName": "Priyanka",
+      "email": "nancy@gmail.com",
+      "password": "12345678",
+      "color": "red"
+    },
+    {
+      "id": "9b7e2f4a-6175-4bf8-9b2a-8910c88d847e",
+      "firstName": "Test",
+      "lastName": "User",
+      "email": "test@gmail.com",
+      "password": "12345678",
+      "color": "purple"
+    },
+    {
+      "id": "35fd7af9-da5e-446b-ae59-654331559dd4",
+      "firstName": "sabari",
+      "lastName": "ganesan",
+      "email": "sabari@gmail.com",
+      "password": "12345678",
+      "color": "yellow"
+    },
+    {
+      "id": "fd769fe6-2c50-440b-87b9-2638970b6892",
+      "firstName": "Pravin",
+      "lastName": "Kumar",
+      "email": "pravin@gmail.com",
+      "password": "12345678",
+      "color": "blue"
+    }
+  ],
+  "boards": [
+    {
+      "id": "5bcb0670-d6c9-4911-a2c4-0851dab1295c",
+      "title": "Project Management",
+      "description": "A visual organizational tool that helps teams manage tasks, track progress, and collaborate effectively.",
+      "thumbnail": "background1"
+    },
+    {
+      "id": "5bcb0670-d6c9-4911-a2c4-0851dab129456",
+      "title": "Remote Team Hub",
+      "description": "A centralized platform designed to facilitate collaboration, communication, and project management for remote teams.",
+      "thumbnail": "background2"
+    }
+  ]
+}

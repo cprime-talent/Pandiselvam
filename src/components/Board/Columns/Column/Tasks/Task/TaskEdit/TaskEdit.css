@@ -1,0 +1,30 @@
+.task-edit {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 8px;
+  min-width: 500px;
+}
+
+.task-edit textarea {
+  resize: none;
+}
+
+.task-edit button {
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.delete-btn {
+  border-radius: 4px;
+  width: 45%;
+}
+
+.delete-btn svg {
+  height: 16px;
+  width: 16px;
+}
+
+.delete-btn:hover {
+  background: var(--warning-hover-color);
+}

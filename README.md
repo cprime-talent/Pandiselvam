@@ -1,42 +1,128 @@
-# candidate-exercise-react
+# Task Management Project
 
-## 🚀 Welcome to the React & React Native Task Management Challenge! 📝
+This project is a task management application built using React. It includes authentication functionality for signing in and logging in. The backend is handled using JSON Server, allowing for easy setup and management of data.
 
-Congratulations on reaching this exciting stage of the interview process! We're eager to witness your React and React Native prowess in action. Let's dive into the challenge!
+# Features
 
-### The Challenge: Build a Task Management Application
+User authentication: Sign in and log in functionalities to access the application.
+Task management: Add, edit, delete tasks, and mark tasks as completed.
+Simple backend: JSON Server is used as a lightweight backend to manage data.
 
-Picture yourself as the architect of an innovative task management tool. Your task, should you accept it, is to craft a cutting-edge application that empowers users to organize their tasks seamlessly.
+# Installation
 
-#### Key Features to Showcase Your Skills:
+# Clone the repository:
 
-1. **React & React Native Mastery**: Leverage your expertise in React and React Native to build a robust, efficient application.
-2. **Task CRUD Operations**: Flex your coding muscles by enabling users to Create, Read, Update, and Delete tasks effortlessly.
-3. **User Authentication**: Demonstrate your understanding of authentication concepts by implementing a secure sign-up and login system.
-4. **Task Sorting and Filtering**: Showcase your React skills by creating intuitive sorting and filtering options for users.
-5. **Responsive Design**: Highlight your React Native skills with a flawlessly responsive design that dazzles on all devices.
+git clone <repository_url>
+Install dependencies:
 
-#### Scoring Criteria:
+# npm install
 
-- **React & React Native Proficiency**: 30 points
-- **Task CRUD Operations**: 20 points
-- **User Authentication**: 15 points
-- **Task Sorting and Filtering**: 15 points
-- **Responsive Design**: 20 points
-- **Documentation**: 20 points
+Start the application:
 
-### Submission Guidelines:
+### `npm start`
 
-1. **GitHub Repository**: Fork this repository [cprime-talent/candidate-exercise-react](https://github.com/cprime-talent/candidate-exercise-react) to embark on your coding journey.
-2. **Readme**: Provide comprehensive instructions for running your project locally, showcasing your communication skills.
-3. **Code Quality**: Write elegant, well-documented code to earn those extra brownie points.
-4. **Bonus Points**: Blow us away with your creativity, attention to detail, and problem-solving prowess.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### Deadline:
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-The deadline for submission is 3 days from creating your fork. Remember, it's not just about finishing first; it's about crafting a masterpiece!
+# npm run serve
 
-### Good Luck, React & React Native Ninja! 🍀
+# Usage
 
-We believe in you! If you have any questions or need guidance along the way, don't hesitate to reach out. Happy coding!
+Sign in or log in using your credentials to access the task management dashboard.
+Add, edit, delete tasks, and mark tasks as completed as needed.
 
+# Technologies Used
+
+# React:
+
+Frontend framework for building user interfaces.
+
+# Redux:
+
+State management library for managing application state.
+
+# Material-UI:
+
+UI library for React applications, providing ready-to-use components with a material design aesthetic.
+
+# JSON Server:
+
+Lightweight backend to manage data.
+
+# Axios:
+
+HTTP client for making API requests.
+
+# Getting Started with Create React App
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

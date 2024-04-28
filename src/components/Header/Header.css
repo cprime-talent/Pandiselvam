@@ -1,0 +1,37 @@
+header {
+    background: var(--contrast-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 16px 40px
+}
+
+header .logo {
+    width: fit-content;
+    font-weight: 600;
+    font-size: 20px;
+    color: inherit;
+}
+
+header .logo:hover {
+    color: var(--text-hover-color);
+}
+
+header .icon,
+header .icon-link {
+    width: 24px;
+    height: 24px;
+}
+
+header .icon:hover {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+@media screen and (width <= 990px) {
+    header {
+        padding: 8px 16px;
+    }
+}

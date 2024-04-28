@@ -1,0 +1,13 @@
+:root {
+    --text-color: #cfd1de;
+    --text-hover-color: #e9edf8;
+    --main-color: #1f2229;
+    --accent-color: #242732;
+    --contrast-color: #1a1c22;
+    --warning-color: rgba(255, 0, 0, .45);
+    --warning-hover-color: rgba(255, 0, 0, .5);
+    --background-shadow: rgba(0, 0, 0, 0.75);
+    --first-priority-color: #8d342e;
+    --second-priority-color: #856422;
+    --third-priority-color: #287928;
+}

@@ -1,0 +1,18 @@
+.columns {
+    display: flex;
+    gap: 16px;
+    overflow: auto;
+    height: 100vh;
+    overflow-y: hidden;
+    margin-bottom: 8px;
+}
+
+#create-column {
+    margin-top: 28px;
+    height: fit-content;
+}
+
+#create-column svg {
+    width: 24px;
+    height: 24px;
+}

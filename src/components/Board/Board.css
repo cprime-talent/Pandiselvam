@@ -1,0 +1,47 @@
+.board-title,
+.board-title button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.board-title button {
+  margin-top: 6px;
+}
+
+.board-title button svg {
+  width: 18px;
+  height: 18px;
+}
+
+.board-title {
+  max-width: 100%;
+}
+
+.board-title h1 {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  color: black;
+}
+
+@media screen and (width <= 990px) {
+  .board-title {
+    gap: 6px;
+  }
+
+  .board-title button {
+    margin-top: 2px;
+  }
+}
+
+@media screen and (width <= 728px) {
+  .board-title {
+    gap: 4px;
+  }
+
+  .board-title button svg {
+    width: 16px;
+    height: 16px;
+  }
+}
