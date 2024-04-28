@@ -4,9 +4,17 @@ This project is a task management application built using React. It includes aut
 
 # Features
 
-User authentication: Sign in and log in functionalities to access the application.
-Task management: Add, edit, delete tasks, and mark tasks as completed.
-Simple backend: JSON Server is used as a lightweight backend to manage data.
+#### User authentication:
+
+Sign in and log in functionalities to access the application.
+
+#### Task management:
+
+Add, edit, delete tasks, and mark tasks as completed.
+
+#### Simple backend:
+
+JSON Server is used as a lightweight backend to manage data.
 
 # Installation
 
@@ -22,13 +30,13 @@ Start the application:
 
 ### `npm start`
 
+### `npm run serve`
+
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-# npm run serve
 
 # Usage
 
