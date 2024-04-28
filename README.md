@@ -10,12 +10,13 @@ Simple backend: JSON Server is used as a lightweight backend to manage data.
 
 # Installation
 
-# Clone the repository:
+## Clone the repository:
 
-git clone <repository_url>
-Install dependencies:
+git clone [https://github.com/cprime-talent/Pandiselvam.git](https://github.com/cprime-talent/Pandiselvam.git)
 
-# npm install
+# Install dependencies:
+
+### `npm install`
 
 Start the application:
 
@@ -36,23 +37,23 @@ Add, edit, delete tasks, and mark tasks as completed as needed.
 
 # Technologies Used
 
-# React:
+### React:
 
 Frontend framework for building user interfaces.
 
-# Redux:
+### Redux:
 
 State management library for managing application state.
 
-# Material-UI:
+### Material-UI:
 
 UI library for React applications, providing ready-to-use components with a material design aesthetic.
 
-# JSON Server:
+### JSON Server:
 
 Lightweight backend to manage data.
 
-# Axios:
+### Axios:
 
 HTTP client for making API requests.
 
