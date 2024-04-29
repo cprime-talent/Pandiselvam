@@ -26,6 +26,8 @@ git clone [https://github.com/cprime-talent/Pandiselvam.git](https://github.com/
 
 ### `npm install`
 
+### `npm install -g json-server`
+
 Start the application:
 
 ### `npm start`
